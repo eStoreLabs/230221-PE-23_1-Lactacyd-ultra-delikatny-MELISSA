@@ -485,18 +485,16 @@ font-size: 16px;
   display: block;
   margin-top: 10px;
 }
-/* #es-lactacyd.es-lactacyd .es-ph__single--ph {
-  text-align: right;
-  position: absolute;
-  right: 0;
-  bottom: 9%;
-} */
+
 #es-lactacyd.es-lactacyd .es-ph__img {
   margin-top: 60px;
 }
 #es-lactacyd.es-lactacyd .es-cross {
   margin: 40px 0;
   position: relative;
+}
+#es-lactacyd.es-lactacyd .es-cross__single--link {
+  text-decoration: none;
 }
 #es-lactacyd.es-lactacyd .es-cross::before {
   content: ' ';
