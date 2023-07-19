@@ -82,11 +82,11 @@
 #es-lactacyd.es-lactacyd .es-kv__badge {
   position: absolute;
   top: 70px;
-  right: 30px;
+  right: 7px;
   width: 100px;
 }
 #es-lactacyd.es-lactacyd .es-kv__descCtn {
-  max-width: 500px;
+  max-width: 534px;
   margin-left: 50px;
   margin-top: -50px;
 }
@@ -194,6 +194,7 @@ min-height: 200px;
   height: 3px;
   transform: translate(-73%, -35%);
   border-radius: 50%;
+  background-color: #2094cd;
 }
 #es-lactacyd.es-lactacyd .es-formula__line:nth-of-type(2) {
   width: 250px;
@@ -221,6 +222,7 @@ min-height: 200px;
   }
   #es-lactacyd.es-lactacyd .es-formula__ingredient--1 {
     justify-self: start;
+    margin-left: 50px;
   }
   #es-lactacyd.es-lactacyd .es-formula__ingredient--2 {
     justify-self: end;
@@ -258,6 +260,7 @@ min-height: 200px;
   left: 0;
   transform: translate(-73%, -35%);
   border-radius: 50%;
+  background-color: #2094cd;
   }
   #es-lactacyd.es-lactacyd .es-formula__ingredient--2 .es-formula__line--2 {
     width: 150px;
@@ -274,6 +277,7 @@ min-height: 200px;
   right: 0;
   transform: translate(73%, -35%);
   border-radius: 50%;
+  background-color: #2094cd;
   }
   #es-lactacyd.es-lactacyd .es-formula__ingredient--3 .es-formula__line--3 {
     width: 150px;
@@ -290,6 +294,7 @@ min-height: 200px;
   right: 0;
   transform: translate(73%, -35%);
   border-radius: 50%;
+  background-color: #2094cd;
   }
   #es-lactacyd.es-lactacyd .es-formula__ingredient--3 .es-formula__line--4 {
     display: block;
@@ -350,6 +355,7 @@ font-size: 16px;
 #es-lactacyd.es-lactacyd .es-effects__list--li {
   margin-left: -1rem;
   padding-left: 0.5em;
+  margin-bottom: 0.5em;
 }
 #es-lactacyd.es-lactacyd .es-effects__list--li::marker {
   content: '—';
@@ -380,7 +386,7 @@ font-size: 16px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 194px;
+  width: 222px;
   min-height: 230px;
   margin: 10px;
 }
@@ -419,7 +425,7 @@ font-size: 16px;
   text-align: center;
   line-height: 1.2;
   font-size: 15px;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 #es-lactacyd.es-lactacyd .es-ph__ctn {
   margin-top: 50px;
@@ -547,8 +553,8 @@ font-size: 16px;
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 8px;
-  min-height: 60px;
-  min-width: 80px;
+  height: 40px;
+  width: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -583,7 +589,8 @@ font-size: 16px;
   color: #174c93;
   font-size: 9px;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.1;
+  font-weight: bold;
 }
 #es-lactacyd.es-lactacyd .es-cross__productCtn {
   display: flex;
@@ -622,7 +629,7 @@ font-size: 16px;
   color: #de8091;
 }
 #es-lactacyd.es-lactacyd .es-cross__packshotName--blue {
-  color: #a1d9f6;
+  color: #9bc3e4;
   right: -45px;
 }
 #es-lactacyd.es-lactacyd .es-cross__packshotName--purple {
